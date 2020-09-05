@@ -1,0 +1,24 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SF",
+  "license": "MIT",
+  "dependencies": {
+    "eruda": "^2.2.1",
+    "eruda-benchmark": "^2.0.0",
+    "eruda-code": "^2.0.0",
+    "eruda-dom": "^2.0.0",
+    "eruda-features": "^2.0.0",
+    "eruda-fps": "^2.0.0",
+    "eruda-memory": "^2.0.0",
+    "eruda-orientation": "^2.0.0",
+    "eruda-timing": "^2.0.0",
+    "eruda-touches": "^2.0.0",
+    "jshint": "^2.11.0"
+  }
+}

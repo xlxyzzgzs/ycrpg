@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="user-scalable=no">
+        <link rel="icon" href="icon/icon.png" type="image/png">
+        <link rel="apple-touch-icon" href="icon/icon.png">
+        <link rel="stylesheet" type="text/css" href="fonts/gamefont.css">
+        <title>异常生物见闻录</title>
+    </head>
+    <body style="background-color: black">
+        <script type="text/javascript" src="js/libs/pixi.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-tilemap.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-picture.js"></script>
+        <script type="text/javascript" src="js/libs/fpsmeter.js"></script>
+        <script type="text/javascript" src="js/libs/lz-string.js"></script>
+        <script type="text/javascript" src="js/libs/iphone-inline-video.browser.js"></script>
+        <script type="text/javascript" src="js/rpg_core.js"></script>
+        <script type="text/javascript" src="js/rpg_managers.js"></script>
+        <script type="text/javascript" src="js/rpg_objects.js"></script>
+        <script type="text/javascript" src="js/rpg_scenes.js"></script>
+        <script type="text/javascript" src="js/rpg_sprites.js"></script>
+        <script type="text/javascript" src="js/rpg_windows.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- include eruda -->
+        <script src="node_modules/eruda/eruda.js"></script>
+        <script src="node_modules/eruda-benchmark/eruda-benchmark.js"></script>
+        <script src="node_modules/eruda-code/eruda-code.js"></script>
+        <script src="node_modules/eruda-dom/eruda-dom.js"></script>
+        <script src="node_modules/eruda-features/eruda-features.js"></script>
+        <script src="node_modules/eruda-fps/eruda-fps.js"></script>
+        <script src="node_modules/eruda-memory/eruda-memory.js"></script>
+        <script src="node_modules/eruda-orientation/eruda-orientation.js"></script>
+        <script src="node_modules/eruda-timing/eruda-timing.js"></script>
+        <script src="node_modules/eruda-touches/eruda-touches.js"></script>
+        <script>
+            eruda.init();
+            //eruda.add(erudaFeatures);
+            eruda.add(erudaTiming);
+            eruda.add(erudaMemory);
+            eruda.add(erudaCode);
+            eruda.add(erudaBenchmark);
+            eruda.add(erudaFps);
+            eruda.add(erudaDom);
+            eruda.add(erudaOrientation);
+            eruda.add(erudaTouches);
+        </script>
+    </body>
+</html>
